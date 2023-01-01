@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import Payments, Payments_expired, Services
+from pago.models import Payments, Payments_expired, Services
 from .serializers import PaymentsSerializer, Payments_expiredSerializer, ServicesSerializer
 from rest_framework.response import Response
 from rest_framework import status
